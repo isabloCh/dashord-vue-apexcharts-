@@ -1,8 +1,8 @@
 <template>
-  <div class="total">
-    <p>Всего заявок: </p>
-    <p>{{total}}</p>
-  </div>
+  <b-container class="total">
+    <b-row><p>Всего заявок:</p></b-row>
+    <b-row><p>{{total}}</p></b-row>
+  </b-container>
 </template>
 
 <script>

@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <p>Выполнено в срок заявок: </p>
-    <p>{{total}}</p>
-  </div>
+  <b-container fluid>
+    <b-row><p>Выполнено в срок заявок: </p></b-row>
+    <b-row><p>{{total}}</p></b-row>
+  </b-container>
 </template>
 
 <script>
   export default {
     data() {
       return {
-        total: "100500"
+        total: "10500"
       }
     }
   }

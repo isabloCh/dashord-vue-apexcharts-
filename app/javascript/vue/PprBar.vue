@@ -1,7 +1,11 @@
 <template >
-  <div class="pprBar">
-    <pie-chart/>
-  </div>
+  <b-container class="pprBar">
+    <b-row>
+      <b-col cols="2"></b-col>
+      <b-col cols="8"><pie-chart/></b-col>
+      <b-col cols="2"></b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

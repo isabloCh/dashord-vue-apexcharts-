@@ -1,7 +1,7 @@
 <template>
-  <div class="chart">
+  <b-container class="chart">
     <apexchart type=radialBar height=400 width=800 :options="chartOptions" :series="series" />
-  </div>
+  </b-container>
 </template>
 
 <script>

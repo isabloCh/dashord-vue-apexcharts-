@@ -1,7 +1,9 @@
 <template>
-  <div class="app">
-    <apexcharts type="bar" height=380px max-width=100% :options="chartOptions" :series="series"></apexcharts>
-  </div>
+  <b-container fluid>
+    <b-row>
+      <apexcharts type="bar" height=380px width=1000px :options="chartOptions" :series="series"></apexcharts>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

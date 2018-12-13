@@ -1,6 +1,6 @@
 <template>
   <div class="chart">
-    <apexchart type=radialBar height =400 width=400 :options="chartOptions" :series="series" />
+    <apexchart type=radialBar height=400 width=800 :options="chartOptions" :series="series" />
   </div>
 </template>
 
@@ -43,4 +43,7 @@
 </script>
 
 <style scoped>
+  .chart{
+    max-height: 100px;
+  }
 </style>

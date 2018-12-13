@@ -1,11 +1,11 @@
 <template>
-  <div class="issueBar">
+  <b-container fluid class="issueBar">
       <b-row>
-        <b-col><total-issue/></b-col>
-        <b-col><issue-chart/></b-col>
-        <b-col><completed-issue/></b-col>
+        <b-col md="2" ><total-issue/></b-col>
+        <b-col md="8"><issue-chart/></b-col>
+        <b-col md="2"><completed-issue/></b-col>
       </b-row>
-  </div>    
+  </b-container>    
 </template>
 
 <script>
@@ -29,3 +29,4 @@
 </style>
 
 
+<b-col md="3" class="py-3">
